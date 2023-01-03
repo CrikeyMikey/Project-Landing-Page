@@ -1,15 +1,43 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 
-li {
+ul {
+    padding-right: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.nav-list {
+    display: flex;
+    margin: 0px;
+    height: 100%;
+}
+
+.nav-item {
     list-style-type: none;
     text-decoration: none;
+    color: white;
 }
 
 .header {
+    background-color: #1F2937;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
 
+.logo {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
 }
 
 .intro {
