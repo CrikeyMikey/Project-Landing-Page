@@ -56,9 +56,29 @@ ul {
     gap: 8px;
 }
 
+/*Content within first box of the first content section*/
 .introcontent1 {
     width: 400px;
     height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/*"This website is awesome"*/
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0px;
+}
+
+.introp {
+    margin: 0px;
+}
+
+.signup1 {
+    width: 80px;
 }
 
 
