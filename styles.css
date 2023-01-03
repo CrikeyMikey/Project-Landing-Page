@@ -4,6 +4,7 @@ body {
     margin: 0px;
 }
 
+/*Header and nav bar*/
 ul {
     display: flex;
     flex-direction: row;
@@ -45,12 +46,21 @@ ul {
     flex: 0 0 auto;
 }
 
+/*Section that follows the header and contains the intro header, paragraph, and image*/
 .intro {
-
+    background-color: #1F2937;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
 }
 
-.content {
-
+.introcontent1 {
+    width: 400px;
+    height: 200px;
 }
+
+
 
 
