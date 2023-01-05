@@ -97,6 +97,7 @@ h1 {
 .content {
     display: flex;
     flex-direction: column;
+    flex-shrink: 0;
 }
 
 .info {
@@ -104,13 +105,16 @@ h1 {
     font-weight: bold;
     color: #1F2937;
     text-align: center;
-    padding: 20px;
+    padding: 35px;
 }
 
 .box {
     display: flex;
     justify-content: center;
     gap: 32px;
+    flex-wrap: wrap;
+    margin: 40px;
+    margin-top: 0px;
 }
 
 .card {
