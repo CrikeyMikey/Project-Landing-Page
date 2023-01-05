@@ -4,7 +4,7 @@ body {
     margin: 0px;
 }
 
-/*Header and nav bar*/
+/*Start of Header and nav bar*/
 ul {
     display: flex;
     flex-direction: row;
@@ -44,9 +44,11 @@ ul {
     justify-content: center;
     align-items: center;
     flex: 0 0 auto;
+    margin-left: 42px;
 }
+/*End of header and nav bar*/
 
-/*Section that follows the header and contains the intro header, paragraph, and image*/
+/*Start of intro header, paragraph, and image*/
 .intro {
     background-color: #1F2937;
     padding: 40px;
@@ -57,7 +59,6 @@ ul {
     flex-wrap: wrap;
 }
 
-/*Content within first box of the first content section*/
 .introcontent1 {
     width: 400px;
     height: fit-content;
@@ -90,6 +91,7 @@ h1 {
 .signup1 {
     width: 80px;
 }
+/*Start of intro header, paragraph, and image*/
 
 
 
