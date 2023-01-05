@@ -54,16 +54,23 @@ ul {
     justify-content: center;
     align-items: center;
     gap: 8px;
+    flex-wrap: wrap;
 }
 
 /*Content within first box of the first content section*/
 .introcontent1 {
     width: 400px;
-    height: 200px;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     gap: 8px;
-    overflow: hidden;
+    min-width: 0px;
+    flex-shrink: 0;
+}
+
+.introcontent2 {
+    display: flex;
+    flex-shrink: 0;
 }
 
 /*"This website is awesome"*/
@@ -76,6 +83,8 @@ h1 {
 
 .introp {
     margin: 0px;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .signup1 {
