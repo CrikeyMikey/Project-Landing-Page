@@ -91,7 +91,47 @@ h1 {
 .signup1 {
     width: 80px;
 }
-/*Start of intro header, paragraph, and image*/
+/*End of intro header, paragraph, and image*/
+
+/*Start of second content section*/
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: center;
+    padding: 20px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+
+.img {
+    border: solid 3px #3882F6;
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+}
+
+.text {
+    width: 130px;
+    text-align: center;
+}
+/*End of second content section*/
 
 
 
