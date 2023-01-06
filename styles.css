@@ -172,4 +172,44 @@ p.quotetext1 {
 }
 /*End of quote section*/
 
+/*Start of third content section*/
+.action {
+    display: flex;
+    justify-content: center;
+}
 
+.signupbox {
+    display: flex;
+    margin: 80px;
+    padding: 40px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.signuptext {
+    width: 700px;
+    justify-content: center;
+}
+
+.signup2 {
+    display: flex;
+    width: 100px;
+
+}
+
+h2.actionh2, p.actionp {
+    margin: 0px;
+    color: white;
+}
+
+.actionbtn {
+    width: 100px;
+    height: 35px;
+    color: white;
+    background-color: #3882F6;
+    padding: 0px;
+    border: 2px solid white;
+    border-radius: 6px;
+}
+/*End of third content section*/
