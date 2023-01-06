@@ -9,7 +9,7 @@ ul {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-right: 40px;
+    margin: 0px;
     gap: 12px;
     flex: 0 0 auto;
 }
@@ -17,7 +17,6 @@ ul {
 .nav-list {
     display: flex;
     margin: 0px;
-    margin-right: 130px;
     height: 100%;
 }
 
@@ -34,7 +33,7 @@ ul {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .logo {
@@ -45,7 +44,7 @@ ul {
     justify-content: center;
     align-items: center;
     flex: 0 0 auto;
-    margin-left: 165px;
+    margin-right: 265px;
 }
 /*End of header and nav bar*/
 
