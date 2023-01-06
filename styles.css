@@ -139,12 +139,31 @@ h1 {
 /*End of second content section*/
 
 /*Start of quote section*/
+.quote {
+    background-color: #E5E7EB;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
+p.quotetext1 {
+    font-size: 36px;
+    width: 700px;
+    margin-bottom: 0px;
+}
 
+.quotetext2 {
+    display: flex;
+    justify-content: flex-end;
+    width: 700px;
+}
 
-
-
-
+.Thor {
+    font-weight: bold;
+}
 /*End of quote section*/
 
 
