@@ -17,6 +17,7 @@ ul {
 .nav-list {
     display: flex;
     margin: 0px;
+    margin-right: 130px;
     height: 100%;
 }
 
@@ -33,7 +34,7 @@ ul {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .logo {
@@ -44,7 +45,7 @@ ul {
     justify-content: center;
     align-items: center;
     flex: 0 0 auto;
-    margin-left: 42px;
+    margin-left: 165px;
 }
 /*End of header and nav bar*/
 
@@ -137,6 +138,13 @@ h1 {
 }
 /*End of second content section*/
 
+/*Start of quote section*/
 
+
+
+
+
+
+/*End of quote section*/
 
 
