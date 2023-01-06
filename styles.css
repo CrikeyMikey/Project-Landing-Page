@@ -215,3 +215,16 @@ h2.actionh2, p.actionp {
     border-radius: 6px;
 }
 /*End of third content section*/
+
+/*Start of Footer*/
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+}
+
+.footertext {
+    color: white;
+}
+/*End of Footer*/
