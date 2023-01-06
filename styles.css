@@ -89,7 +89,13 @@ h1 {
 }
 
 .signup1 {
-    width: 80px;
+    width: 100px;
+    height: 25px;
+    background-color: #3882F6;
+    color: white;
+    padding: 0px;
+    border: 0px;
+    border-radius: 5px;
 }
 /*End of intro header, paragraph, and image*/
 
