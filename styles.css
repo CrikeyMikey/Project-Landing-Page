@@ -185,6 +185,8 @@ p.quotetext1 {
     background-color: #3882F6;
     border-radius: 10px;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 6px;
 }
 
 .signuptext {
