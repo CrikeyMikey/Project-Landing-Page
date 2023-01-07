@@ -9,8 +9,8 @@ ul {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 0px;
     gap: 12px;
+    margin-right: 100px;
     flex: 0 0 auto;
 }
 
@@ -33,7 +33,7 @@ ul {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .logo {
@@ -44,7 +44,7 @@ ul {
     justify-content: center;
     align-items: center;
     flex: 0 0 auto;
-    margin-right: 265px;
+    margin-left: 100px;
 }
 /*End of header and nav bar*/
 
