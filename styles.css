@@ -10,8 +10,9 @@ ul {
     flex-direction: row;
     align-items: center;
     gap: 12px;
-    margin-right: 100px;
     flex: 0 0 auto;
+    margin: 0px;
+    padding: 0px;
 }
 
 .headerbox {
@@ -35,9 +36,10 @@ ul {
     background-color: #1F2937;
     height: 75px;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin: auto;
+    width: 80%;
 }
 
 .logo {
@@ -48,7 +50,6 @@ ul {
     justify-content: center;
     align-items: center;
     flex: 0 0 auto;
-    margin-left: 100px;
 }
 /*End of header and nav bar*/
 
@@ -56,11 +57,11 @@ ul {
 .intro {
     background-color: #1F2937;
     display: flex;
-    margin: auto;
-    width: 80%;
     height: 500px;
     justify-content: space-between;
     align-items: center;
+    width: 80%;
+    margin: auto;
 }
 
 .introcontent1 {
