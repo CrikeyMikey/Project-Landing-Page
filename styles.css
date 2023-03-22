@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px;
+    min-width: 1000px;
 }
 
 /*Start of Header and nav bar*/
@@ -134,9 +135,22 @@ h1 {
 
 .card {
     display: flex;
+    flex: 0 1 calc(25% - 1em);
     flex-direction: column;
     align-items: center;
     gap: 6px;
+}
+
+@media screen and (min-width: 40em) {
+    .box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .card {
+        flex: 0 1 calc(25% - 1em);
+    }
 }
 
 .img {
